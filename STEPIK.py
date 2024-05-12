@@ -318,24 +318,46 @@
 #     res += i[k-1:k:]
 # print(res)
 
-n = int(input())
-arr, res = [], []
+# n = int(input())
+# arr, res = [], []
+#
+# for i in range(n):
+#     nn = input()
+#     arr.append(nn)
+#
+# for i in arr:
+#     for j in i:
+#         res.append(j)
+# print(res)
 
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#
+# for num in numbers:
+#     print(num)
+
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for i in numbers:
+#     print (i**2)
+
+# n = int(input())
+# result, inter = [], []
+# for i in range(n):
+#     x = int(input())
+#     inter.append(x)
+#     y = ((x**2) + (2*x) + 1)
+#     result.append(y)
+#
+# print(*inter, sep='\n')
+# print()
+# print(*result, sep='\n')
+
+n =int(input())
+result = []
 for i in range(n):
-    nn = input()
-    arr.append(nn)
-
-for i in arr:
-    for j in i:
-        res.append(j)
-print(res)
-
-
-
-
-
-
-
+    result.append(int(input()))
+result.remove(min(result))
+result.remove(max(result))
+print(*result, sep='\n')
 
 
 
