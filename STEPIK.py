@@ -351,13 +351,71 @@
 # print()
 # print(*result, sep='\n')
 
-n =int(input())
-result = []
-for i in range(n):
-    result.append(int(input()))
-result.remove(min(result))
-result.remove(max(result))
-print(*result, sep='\n')
+# n =int(input())
+# result = []
+# for i in range(n):
+#     result.append(int(input()))
+# result.remove(min(result))
+# result.remove(max(result))
+# print(*result, sep='\n')
+
+# n =int(input())
+# result = []
+# for i in range(n):
+#     x = input()
+#     if x in result:
+#         continue
+#     else:
+#         result.append(x)
+# print(*result)
+
+# n =int(input())
+# result = []
+# enter = []
+#
+# for i in range(n):
+#     x = (input())
+#     result.append(x)
+#
+# q = input()
+#
+# for j in result:
+#     if q.lower() in j.lower():
+#         print(j)
+# ##########################################
+# arr_1, arr_2 = [], []
+#
+# n = int(input())
+# for i in range(n):
+#     x = (input())
+#     arr_1.append(x)
+#
+# q = int(input())
+# for i in range(q):
+#     y = (input())
+#     arr_2.append(y)
+#
+#
+# for k in arr_1:
+#     if y.lower() in k.lower():
+#         print(k)
+##########################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
