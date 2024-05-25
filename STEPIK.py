@@ -383,7 +383,8 @@
 #     if q.lower() in j.lower():
 #         print(j)
 # ##########################################
-# arr_1, arr_2 = [], []
+# arr_1, arr_2, arr_3 = [], [], []
+# count = 0
 #
 # n = int(input())
 # for i in range(n):
@@ -395,21 +396,57 @@
 #     y = (input())
 #     arr_2.append(y)
 #
+# for j in arr_1:
+#     count = 0
+#     for jj in arr_2:
+#         if jj.lower() in j.lower():
+#             count += 1
+#             if count == len(arr_2):
+#                 arr_3.append(j)
 #
-# for k in arr_1:
-#     if y.lower() in k.lower():
-#         print(k)
+# print(*arr_3, sep='\n')
 ##########################################
-
-
-
-
-
-
-
-
-
-
+# s = [input() for _ in range(int(input()))]
+##########################################
+# arr_1, arr_2, arr_3 = [], [], []
+# s = [input() for _ in range(int(input()))]
+# for i in s:
+#     if int(i) < 0:
+#         arr_1.append(i)
+#     if int(i) == 0:
+#         arr_2. append(i)
+#     if int(i) > 0:
+#         arr_3.append(i)
+# print(*arr_1, *arr_2, *arr_3, sep='\n')
+##########################################
+# s = input()
+# chars = list(s)
+# print(*s.split(), sep='\n')
+##########################################
+# s = input()
+# l = s.split()
+# print(l[0][0], l[1][0], l[2][0], sep='.', end='.')
+##########################################
+# s = input().split('\\')
+# print(*s, sep='\n')
+##########################################
+# s = input().split(' ')
+# for i in s:
+#     print(int(i) * '+')
+##########################################
+# s = input().split('.')
+# flag = True
+# for i in s:
+#     if int(i) > 255:
+#         flag = False
+# print("ДА" if flag == True else "НЕТ")
+##########################################
+# s = input()
+# r = input()
+# arr = []
+# for i in range(len(s)):
+#     arr.append(s[i])
+# print(r.join(arr))
 
 
 
